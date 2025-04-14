@@ -136,3 +136,6 @@ This was a fun week during which I went to association meeting, bough boxing gea
 
 i'ts been a busy week going around town and training really hard. But even so I found time for refreshing activities. Me and my friends went ahead and played tennis. First we did not land any shots in the field but after 90 minutes of playing we started to hit the atleast sometimes.
 
+7-11
+
+Now I have taken a week of from training focused other things such as editing this blog. I have also applied for some housing in my new soon to be hometown and I must tell you that I am very exicted about this new phase. But before that I hope to be soon embarking on another mission now travelling the old country via buss for a time unknown to man. In Finland we are finally getting better weather and I hope the winter is behind us for now.

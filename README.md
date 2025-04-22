@@ -139,3 +139,7 @@ i'ts been a busy week going around town and training really hard. But even so I 
 7-11
 
 Now I have taken a week of from training focused other things such as editing this blog. I have also applied for some housing in my new soon to be hometown and I must tell you that I am very exicted about this new phase. But before that I hope to be soon embarking on another mission now travelling the old country via buss for a time unknown to man. In Finland we are finally getting better weather and I hope the winter is behind us for now.
+
+08-13.0
+
+This was a normal week execpt for the easter holidays which I spent with my family and in my own solitude. I finally made it to the boxing class of an old acquintance who is a very competent coach. I have not slept that well because of many stress factors in my life, and my most central concern is making people understand how I sometimes strugle and being agreable enough so that I would respect their personality enough. Overall I am managing things well externally, and I suppose it is good to handle one thing at a time!

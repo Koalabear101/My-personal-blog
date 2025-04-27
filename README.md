@@ -143,3 +143,7 @@ Now I have taken a week of from training focused other things such as editing th
 08-13.0
 
 This was a normal week execpt for the easter holidays which I spent with my family and in my own solitude. I finally made it to the boxing class of an old acquintance who is a very competent coach. I have not slept that well because of many stress factors in my life, and my most central concern is making people understand how I sometimes strugle and being agreable enough so that I would respect their personality enough. Overall I am managing things well externally, and I suppose it is good to handle one thing at a time!
+
+14-27
+
+I have finally gotten motivation back to do creative works which I might be publishin here in the close future. I am doing well in life, I wish I had more friends with whom I could spend time with. I have had such people but I feel like in some relationships sometimes you just need to let go if the other person never grows up and does not support your journey. 

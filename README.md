@@ -147,3 +147,6 @@ This was a normal week execpt for the easter holidays which I spent with my fami
 14-27
 
 I have finally gotten motivation back to do creative works which I might be publishin here in the close future. I am doing well in life, I wish I had more friends with whom I could spend time with. I have had such people but I feel like in some relationships sometimes you just need to let go if the other person never grows up and does not support your journey. 
+
+I have written another essay on the matter of entrepreneurship in Finland, just copy it and paste it to your search field!
+https://1drv.ms/w/c/b108b7646c809f7d/EVXiBbE3W6RGrSO0hmhAJMQBv25mgcK99kWxFg7R3clM4A?e=Ms91h7

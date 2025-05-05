@@ -150,3 +150,7 @@ I have finally gotten motivation back to do creative works which I might be publ
 
 I have written another essay on the matter of entrepreneurship in Finland, just copy it and paste it to your search field!
 https://1drv.ms/w/c/b108b7646c809f7d/EVXiBbE3W6RGrSO0hmhAJMQBv25mgcK99kWxFg7R3clM4A?e=Ms91h7
+
+27.04-02.05
+
+This week for some reason I have not been able to sleep properly. My thoughts are focused on my moving in a couple of weeks. I have spent time with my relatives and been playing monthly games on playstation. I am now plating a funny game called robocop. Also been reading deadly Hallows when not being able to sleep.

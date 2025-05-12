@@ -154,3 +154,8 @@ https://1drv.ms/w/c/b108b7646c809f7d/EVXiBbE3W6RGrSO0hmhAJMQBv25mgcK99kWxFg7R3cl
 27.04-02.05
 
 This week for some reason I have not been able to sleep properly. My thoughts are focused on my moving in a couple of weeks. I have spent time with my relatives and been playing monthly games on playstation. I am now plating a funny game called robocop. Also been reading deadly Hallows when not being able to sleep.
+
+06-12
+
+Finally we are moving to summer season more or less. This week I just packed my stuff and have started to fix some broken things that I have procrastinated in fixing. 
+Me and my friend went to the local park to train boxing and it made me feel very positive and in a good mood. In the weekend I visited my healthy relatives (some of them had a flu) and we celebrated mother's day together with some cake. Sunday evening I drunk a couple of beers with my neighbour and that was my week summarised.

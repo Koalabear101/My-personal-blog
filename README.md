@@ -159,3 +159,7 @@ This week for some reason I have not been able to sleep properly. My thoughts ar
 
 Finally we are moving to summer season more or less. This week I just packed my stuff and have started to fix some broken things that I have procrastinated in fixing. 
 Me and my friend went to the local park to train boxing and it made me feel very positive and in a good mood. In the weekend I visited my healthy relatives (some of them had a flu) and we celebrated mother's day together with some cake. Sunday evening I drunk a couple of beers with my neighbour and that was my week summarised.
+
+13-18
+
+It's been a wonderfull week. Me and some of my friends put together a proposition for the governement to reform a law called unemployment security. It has been sent to the justice ministry for inspection and if it passes it should be votable at Kansalaisaloite.fi somewhere around next week. Overall I am feeling fine but am anxiously awaiting to move in 12 days time. 

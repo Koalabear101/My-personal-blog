@@ -163,3 +163,7 @@ Me and my friend went to the local park to train boxing and it made me feel very
 13-18
 
 It's been a wonderfull week. Me and some of my friends put together a proposition for the governement to reform a law called unemployment security. It has been sent to the justice ministry for inspection and if it passes it should be votable at Kansalaisaloite.fi somewhere around next week. Overall I am feeling fine but am anxiously awaiting to move in 12 days time. 
+
+Me ollaan tehty kavereiden kanssa kansalaisaloite. Kaikki Suomen täysi-ikäiset kansalaiset, menkää kannattamaan jos kannatatte!
+
+https://www.kansalaisaloite.fi/fi/aloite/15346

@@ -167,3 +167,8 @@ It's been a wonderfull week. Me and some of my friends put together a propositio
 Me ollaan tehty kavereiden kanssa kansalaisaloite. Kaikki Suomen täysi-ikäiset kansalaiset, menkää kannattamaan jos kannatatte!
 
 https://www.kansalaisaloite.fi/fi/aloite/15346
+
+19-26
+
+This has been a very relaxing week since it is my last week in Helsinki. I have been to town on social events and relaxing outside enjoying the sunshine. 
+I am also feeling anxious about moving and thinking how is everything going to workout and how to move all the pieces together properly.

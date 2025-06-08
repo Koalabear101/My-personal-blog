@@ -172,3 +172,11 @@ https://www.kansalaisaloite.fi/fi/aloite/15346
 
 This has been a very relaxing week since it is my last week in Helsinki. I have been to town on social events and relaxing outside enjoying the sunshine. 
 I am also feeling anxious about moving and thinking how is everything going to workout and how to move all the pieces together properly.
+
+27.5-7.6
+
+I have not been able to make updates here because my hardware was boxed up for the move. The last two weeks have been very busy. First I made to trips to my new home
+two times driving thousand kilometers with my friends. First time we packed and unpacked my wares and the second time I went ahead and organised my new house before the
+semester starts. The second week I started to make my way to Warsaw in which I am currently staying at. It was a very long trip since first I had to cross the baltic sea
+with the ferry. After the ferry there was a 15 hour long bus ride through the baltic states and through Poland. I am ecxited to finally be abroad but at the same time
+stressed about surviving in here and propably going to apreciate being in Finland after testing myself for the next week.

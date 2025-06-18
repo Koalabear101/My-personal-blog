@@ -180,3 +180,7 @@ two times driving thousand kilometers with my friends. First time we packed and 
 semester starts. The second week I started to make my way to Warsaw in which I am currently staying at. It was a very long trip since first I had to cross the baltic sea
 with the ferry. After the ferry there was a 15 hour long bus ride through the baltic states and through Poland. I am ecxited to finally be abroad but at the same time
 stressed about surviving in here and propably going to apreciate being in Finland after testing myself for the next week.
+
+08.-18
+
+This week I returned from Warsaw and did some resting. I spent time with my family, went running and went to my families summer cottage. All in all it has been a tremendous week but the weather could be better!

@@ -184,3 +184,6 @@ stressed about surviving in here and propably going to apreciate being in Finlan
 08.-18
 
 This week I returned from Warsaw and did some resting. I spent time with my family, went running and went to my families summer cottage. All in all it has been a tremendous week but the weather could be better!
+
+19-25
+This week was all about celebrating the Finnish midsummer which I spent tradiotionally in my families summer cottage. The weather was kinda bad but when it was not I went rowing, hiking and just inhaling the fresh air of country side. Overall I enjoyed the midsummer but this is propably weatherwise the lamest summer in Finland so it is visible in peoples moods. For foreigners summer is very short here and that is what people aregearing up for 6 months of the year when it's cold and dark.

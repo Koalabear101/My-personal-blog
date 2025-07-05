@@ -1,0 +1,7 @@
+.zip
+*.mp4
+*.mov
+*.log
+node_modules/
+.env
+.cache/

@@ -187,3 +187,7 @@ This week I returned from Warsaw and did some resting. I spent time with my fami
 
 19-25
 This week was all about celebrating the Finnish midsummer which I spent tradiotionally in my families summer cottage. The weather was kinda bad but when it was not I went rowing, hiking and just inhaling the fresh air of country side. Overall I enjoyed the midsummer but this is propably weatherwise the lamest summer in Finland so it is visible in peoples moods. For foreigners summer is very short here and that is what people aregearing up for 6 months of the year when it's cold and dark.
+
+26.06-01.08
+
+These past four weeks have been quite the thrill. Firstly I went to my acquintances summer cabinet for a better part of the week. After this I just spent a week or two organising things around my new apartment. After this I had my friend coming over for 2-3 days. Currently feeling a bit empty because I am anxiously awaiting for the semester to commence. The weather has been quite horrid since it has been + 30 celsius hot but now it the tides are changing and thus the weather is feeling more humane. 

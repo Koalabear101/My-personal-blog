@@ -72,6 +72,37 @@
       gap: 2rem;
       margin-bottom: 3rem;
     }
+
+    .contact-section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      margin-bottom: 2rem;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.75rem;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.6rem 0.75rem;
+      border: 1px solid #e6e6ee;
+      border-radius: 8px;
+      margin-top: 0.35rem;
+      font-size: 0.95rem;
+    }
+
+    .contact-form .note {
+      font-size: 0.85rem;
+      color: #666;
+      margin: 0.5rem 0 1rem;
+    }
     
     .project-card {
       background: white;
@@ -241,6 +272,29 @@
       </div>
     </section>
   </main>
+
+  <section class="contact-section" aria-labelledby="contact-heading">
+    <div style="max-width:800px;margin:0 auto;padding:0 1rem;">
+      <h2 id="contact-heading">Contact / Ota yhteyttä</h2>
+      <form class="contact-form" action="mailto:juuso5279@gmail.com" method="POST" enctype="text/plain">
+        <label> Name / Nimi
+          <input type="text" name="name" required>
+        </label>
+
+        <label> Email / Sähköposti
+          <input type="email" name="email" required>
+        </label>
+
+        <label> Message / Viesti
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <p class="note">This will open your email client and send to juuso5279@gmail.com — Tämä avaa sähköpostiohjelman ja lähettää osoitteeseen juuso5279@gmail.com</p>
+
+        <button type="submit" class="project-link">Send / Lähetä</button>
+      </form>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2026 My Digital Portfolio | Built with Lovable</p>

@@ -3,113 +3,247 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Life One Day at a Time</title>
+  <title>My Digital Portfolio</title>
   <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background-color: #fdfdfd;
-      color: #333;
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #333;
+      min-height: 100vh;
+    }
+    
+    header {
+      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(108, 99, 255, 0.3);
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    
+    header .tagline {
+      font-size: 1.1rem;
+      opacity: 0.95;
+      font-weight: 300;
+    }
+    
+    main {
+      max-width: 1200px;
+      margin: -2rem auto 3rem;
       padding: 0 1rem;
     }
-    header {
-      background-color: #6c63ff;
+    
+    .intro {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 3rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      line-height: 1.8;
+    }
+    
+    .intro h2 {
+      color: #6c63ff;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    
+    .projects-section h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(108, 99, 255, 0.2);
+    }
+    
+    .project-header {
+      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
       color: white;
-      padding: 2rem 1rem;
+      padding: 2rem;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .project-header h3 {
+      font-size: 1.3rem;
       text-align: center;
     }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
+    
+    .project-body {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .project-body p {
+      color: #666;
       line-height: 1.6;
+      margin-bottom: 1rem;
+      flex-grow: 1;
     }
-    h1 {
-      margin-bottom: 0;
+    
+    .project-link {
+      display: inline-block;
+      background: #6c63ff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-align: center;
     }
+    
+    .project-link:hover {
+      background: #5a52d5;
+      transform: scale(1.05);
+    }
+    
     footer {
       text-align: center;
-      padding: 2rem 0;
-      color: #888;
+      padding: 2rem;
+      color: white;
       font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      main {
+        margin-top: -1rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>My Life One Day at a Time</h1>
-    <p>Welcome to my personal blog</p>
+    <h1>My Digital Portfolio</h1>
+    <p class="tagline">Crafted with Lovable - Exploring Web Development & Design</p>
   </header>
 
   <main>
-    <h2>About This Blog</h2>
-    <p>
-      Life can be overwhelming when we look too far ahead. This blog is a space
-      where I reflect, share, and grow — one day at a time. Whether you're here
-      for inspiration, honesty, or just a peek into someone else's path, I'm glad
-      you're here.
-    </p>
+    <div class="intro">
+      <h2>Welcome to My Portfolio</h2>
+      <p>
+        I'm a developer and designer passionate about creating meaningful digital experiences. 
+        Below you'll find a collection of my projects built with cutting-edge technologies and innovative design approaches. 
+        Each project represents my commitment to quality, creativity, and solving real-world problems through code and design.
+      </p>
+    </div>
 
-    <h2>Latest Posts</h2>
+    <section class="projects-section">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project One</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              An innovative web application showcasing modern design principles and 
+              responsive development practices.
+            </p>
+            <a href="https://lovable.dev/projects/c203bb28-c452-4e1b-a0d4-ab15b66b2e93" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
 
-    <article>
-      <h3>Chapter I – Summer of 2023</h3>
-      <p>
-        This chapter of my blog focuses on my life during the summer of 2023 — a real growing-up period for me. 
-        I was privileged to travel the world and complete my driver's license. You'll also find some funny lyrics 
-        I wrote about those sometimes crazy times.
-      </p>
-      <p>
-        📄 <a href="https://drive.google.com/file/d/1Qm1fqX4Vfn6LuWmPQZ0rBvFXE7vmuJqJ/view" target="_blank">Read Chapter I (PDF)</a>
-      </p>
-    </article>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Two</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              A dynamic application demonstrating advanced frontend technologies and 
+              user-centered design methodology.
+            </p>
+            <a href="https://lovable.dev/projects/b94d5a8e-f533-41b6-aaeb-0147fbf9cb22" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
 
-    <article>
-      <h3>Chapter II – Life Between Interrail and the Military</h3>
-      <p>
-        This chapter reflects on my time between the Interrail trip and military service. It was a good period — 
-        focused on sports and work — but also chaotic and challenging in its own way.
-      </p>
-      <p>
-        📄 <a href="https://drive.google.com/file/d/1S02cOkz-3ZXdm5ZbwidXcTSNuwZoP5iM/view" target="_blank">Read Chapter II (PDF)</a>
-      </p>
-    </article>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Three</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              An experimental project exploring new design patterns and interactive 
+              user experiences on the web.
+            </p>
+            <a href="https://lovable.dev/projects/f7a6ca05-4448-4c7f-9a31-8b13e44e4591" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
 
-    <article>
-      <h3>Chapter III – Military Life</h3>
-      <p>
-        This chapter covers my military service. It wasn’t easy, but the experience shaped how I think and act. 
-        I formed lasting friendships through the hardships and challenges we shared.
-      </p>
-      <p>
-        📄 <a href="https://drive.google.com/file/d/1Vi4Xcof85SdQzIX0_y7WKiU58IUS5lBp/view" target="_blank">Read Chapter III (PDF)</a>
-      </p>
-    </article>
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Four</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              A comprehensive application showcasing full-stack development capabilities 
+              and thoughtful product design.
+            </p>
+            <a href="https://lovable.dev/projects/20110244-422f-4791-8b21-f1dce3fa6f7c" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
 
-    <article>
-      <h3>Chapter IV – Reflections and Growth</h3>
-      <p>
-        This chapter dives into my reflections and growth during a transformative period of my life. 
-        It’s a story of learning, adapting, and finding purpose.
-      </p>
-      <p>
-        📄 <a href="https://docs.google.com/document/d/1lAftq6wI_4_3GYJofCjmfWXnn2EbXOx5-5M9LtUykO8/edit?usp=sharing" target="_blank">Read Chapter IV (Google Doc)</a>
-      </p>
-    </article>
-
-    <article>
-      <h3>Chapter V – The Next Chapter</h3>
-      <p>
-        This chapter is about looking forward to the future while cherishing the lessons of the past. 
-        It’s a journey of hope, ambition, and excitement for what’s to come.
-      </p>
-      <p>
-        📄 <a href="https://docs.google.com/document/d/1PTOnbPVVDoB-WrjqZK5pDBndrXCGreIVl502J3KDJGo/edit?usp=sharing" target="_blank">Read Chapter V (Google Doc)</a>
-      </p>
-    </article>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Life One Day at a Time</p>
+    <p>&copy; 2026 My Digital Portfolio | Built with Lovable</p>
   </footer>
 </body>
 </html>

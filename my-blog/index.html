@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Digital Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #333;
+      min-height: 100vh;
+    }
+    
+    header {
+      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(108, 99, 255, 0.3);
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    
+    header .tagline {
+      font-size: 1.1rem;
+      opacity: 0.95;
+      font-weight: 300;
+    }
+    
+    main {
+      max-width: 1200px;
+      margin: -2rem auto 3rem;
+      padding: 0 1rem;
+    }
+    
+    .intro {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 3rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      line-height: 1.8;
+    }
+    
+    .intro h2 {
+      color: #6c63ff;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    
+    .projects-section h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(108, 99, 255, 0.2);
+    }
+    
+    .project-header {
+      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
+      color: white;
+      padding: 2rem;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .project-header h3 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    
+    .project-body {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .project-body p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+    
+    .project-link {
+      display: inline-block;
+      background: #6c63ff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    
+    .project-link:hover {
+      background: #5a52d5;
+      transform: scale(1.05);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: white;
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.1);
+    }
+    
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      main {
+        margin-top: -1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Digital Portfolio</h1>
+    <p class="tagline">Crafted with Lovable - Exploring Web Development & Design</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <h2>Welcome to My Portfolio</h2>
+      <p>
+        I'm a developer and designer passionate about creating meaningful digital experiences. 
+        Below you'll find a collection of my projects built with cutting-edge technologies and innovative design approaches. 
+        Each project represents my commitment to quality, creativity, and solving real-world problems through code and design.
+      </p>
+    </div>
+
+    <section class="projects-section">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Story of the steppe</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              An innovative web application showcasing modern design principles and 
+              responsive development practices.
+            </p>
+            <a href="https://lovable.dev/projects/c203bb28-c452-4e1b-a0d4-ab15b66b2e93" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>company website</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              A dynamic application demonstrating advanced frontend technologies and 
+              user-centered design methodology.
+            </p>
+            <a href="https://lovable.dev/projects/b94d5a8e-f533-41b6-aaeb-0147fbf9cb22" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Blog</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              An experimental project exploring new design patterns and interactive 
+              user experiences on the web.
+            </p>
+            <a href="https://lovable.dev/projects/f7a6ca05-4448-4c7f-9a31-8b13e44e4591" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>My compositions</h3>
+          </div>
+          <div class="project-body">
+            <p>
+              A comprehensive application showcasing full-stack development capabilities 
+              and thoughtful product design.
+            </p>
+            <a href="https://lovable.dev/projects/20110244-422f-4791-8b21-f1dce3fa6f7c" target="_blank" class="project-link">
+              View Project →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Digital Portfolio | Built with Lovable</p>
+  </footer>
+</body>
+</html>

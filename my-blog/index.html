@@ -4,20 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Digital Portfolio</title>
+
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    
+
     body {
       font-family: system-ui, -apple-system, sans-serif;
       background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
       color: #333;
       min-height: 100vh;
     }
-    
+
     header {
       background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
       color: white;
@@ -25,25 +26,25 @@
       text-align: center;
       box-shadow: 0 4px 20px rgba(108, 99, 255, 0.3);
     }
-    
+
     header h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
       font-weight: 700;
     }
-    
+
     header .tagline {
       font-size: 1.1rem;
       opacity: 0.95;
       font-weight: 300;
     }
-    
+
     main {
       max-width: 1200px;
       margin: -2rem auto 3rem;
       padding: 0 1rem;
     }
-    
+
     .intro {
       background: white;
       padding: 2rem;
@@ -52,25 +53,88 @@
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
       line-height: 1.8;
     }
-    
+
     .intro h2 {
       color: #6c63ff;
       margin-bottom: 1rem;
       font-size: 1.4rem;
     }
-    
+
     .projects-section h2 {
       text-align: center;
       color: #333;
       margin-bottom: 2rem;
       font-size: 2rem;
     }
-    
+
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
       margin-bottom: 3rem;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(108, 99, 255, 0.2);
+    }
+
+    .project-header {
+      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
+      color: white;
+      padding: 2rem;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .project-header h3 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    .project-body {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-body p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    /* FIXED BLOCK — this was broken before */
+    .project-link {
+      display: inline-block;
+      background: #6c63ff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .project-link:hover {
+      background: #5a52d5;
+      transform: scale(1.05);
     }
 
     .contact-section {
@@ -103,50 +167,123 @@
       color: #666;
       margin: 0.5rem 0 1rem;
     }
-    
-    .project-card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      transition: all 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    
-    .project-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 12px 30px rgba(108, 99, 255, 0.2);
-    }
-    
-    .project-header {
-      background: linear-gradient(135deg, #6c63ff 0%, #5a52d5 100%);
-      color: white;
-      padding: 2rem;
-      flex-grow: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .project-header h3 {
-      font-size: 1.3rem;
+
+    footer {
       text-align: center;
+      padding: 2rem;
+      color: white;
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.1);
     }
-    
-    .project-body {
-      padding: 1.5rem;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        margin-top: -1rem;
+      }
     }
-    
-    .project-body p {
-      color: #666;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-      flex-grow: 1;
-    }
-    
-    .pr
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Digital Portfolio</h1>
+    <p class="tagline">Crafted with Lovable - Exploring Web Development & Design</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <h2>Welcome to My Portfolio</h2>
+      <p>
+        Tarvitsetko tuotteen, joka tekee vaikutuksen ja tuo tuloksia? Teen sen nopeasti, tyylikkäästi ja vaikutuksen jätättäen.
+        <br>
+        Need a product that impresses and drives results? I build it fast, sharp, and for impact.
+      </p>
+    </div>
+
+    <section class="projects-section">
+      <h2>Featured Projects</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Story of the steppe</h3>
+          </div>
+          <div class="project-body">
+            <p>A narrative-driven interactive experience inspired by steppe landscapes — atmospheric storytelling and immersive visuals.</p>
+            <a href="https://bookish-creations-hub.lovable.app" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>company website</h3>
+          </div>
+          <div class="project-body">
+            <p>A polished company website with clear branding, responsive layout, and a focus on conversion and accessibility.</p>
+            <a href="https://honkosen-huoltopalvelut-fi.lovable.app" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Blog</h3>
+          </div>
+          <div class="project-body">
+            <p>A minimal, content-first blog platform for longform writing and personal reflections with a clean reading experience.</p>
+            <a href="https://mylife-one-day-shine.lovable.app" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>My compositions</h3>
+          </div>
+          <div class="project-body">
+            <p>A personal collection of musical and written compositions, featuring samples, notes, and background on each work.</p>
+            <a href="https://composer-chronicle.lovable.app" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <section class="contact-section" aria-labelledby="contact-heading">
+    <div style="max-width:800px;margin:0 auto;padding:0 1rem;">
+      <h2 id="contact-heading">Contact / Ota yhteyttä</h2>
+
+      <form class="contact-form" action="mailto:juuso5279@gmail.com" method="POST" enctype="text/plain">
+        <label>Name / Nimi
+          <input type="text" name="name" required>
+        </label>
+
+        <label>Email / Sähköposti
+          <input type="email" name="email" required>
+        </label>
+
+        <label>Message / Viesti
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <p class="note">This will open your email client and send to juuso5279@gmail.com — Tämä avaa sähköpostiohjelman ja lähettää osoitteeseen juuso5279@gmail.com</p>
+
+        <button type="submit" class="project-link">Send / Lähetä</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Digital Portfolio | Built with Lovable</p>
+  </footer>
+
+</body>
+</html>

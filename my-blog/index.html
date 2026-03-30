@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
   <title>My Digital Portfolio | Web Development & Design</title>
   <meta name="description" content="Juuso's web development portfolio showcasing interactive websites, branding, and digital experiences." />
   <meta name="keywords" content="web developer, portfolio, digital design, front-end development, interactive website, creative web projects" />
@@ -19,7 +20,6 @@
   <meta name="twitter:description" content="Portfolio of a web developer and digital designer with featured interactive projects and contact details." />
   <meta name="twitter:image" content="https://yourdomain.com/og-image.png" />
   <link rel="canonical" href="https://yourdomain.com/my-blog/" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <link rel="preconnect" href="https://www.googletagmanager.com" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
@@ -109,6 +109,12 @@
       font-size: 1.4rem;
     }
 
+    .section-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
     .projects-section h2 {
       text-align: center;
       color: #333;
@@ -175,7 +181,6 @@
       flex-grow: 1;
     }
 
-    /* FIXED BLOCK — this was broken before */
     .project-link {
       display: inline-block;
       background: #6c63ff;
@@ -408,7 +413,7 @@
   </main>
 
   <section id="contact" class="contact-section" aria-labelledby="contact-heading">
-    <div style="max-width:800px;margin:0 auto;padding:0 1rem;">
+    <div class="section-inner">
       <h2 id="contact-heading">Contact / Ota yhteyttä</h2>
 
       <form class="contact-form" action="mailto:juuso5279@gmail.com" method="POST" enctype="text/plain">

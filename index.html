@@ -317,19 +317,27 @@
   <header>
     <h1>My Digital Portfolio</h1>
     <p class="tagline">Crafted with Lovable - Exploring Web Development & Design</p>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="my-blog/">Blog</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <div class="intro">
+    <section class="intro" id="about">
       <h2>Welcome to My Portfolio</h2>
       <p>
         Tarvitsetko tuotteen, joka tekee vaikutuksen ja tuo tuloksia? Teen sen nopeasti, tyylikkäästi ja vaikutuksen jätättäen.
         <br>
         Need a product that impresses and drives results? I build it fast, sharp, and for impact.
       </p>
-    </div>
+    </section>
 
-    <section class="projects-section">
+    <section id="projects" class="projects-section">
       <h2>Featured Projects</h2>
       <div class="projects-grid">
         
@@ -342,7 +350,7 @@
               A narrative-driven interactive experience inspired by steppe landscapes —
               atmospheric storytelling and immersive visuals.
             </p>
-            <a href="https://bookish-creations-hub.lovable.app" target="_blank" class="project-link">
+            <a href="https://bookish-creations-hub.lovable.app" target="_blank" rel="noopener noreferrer" class="project-link">
               View Project →
             </a>
           </div>
@@ -357,7 +365,7 @@
               A polished company website with clear branding, responsive layout, and
               a focus on conversion and accessibility.
             </p>
-            <a href="https://honkosen-huoltopalvelut-fi.lovable.app" target="_blank" class="project-link">
+            <a href="https://honkosen-huoltopalvelut-fi.lovable.app" target="_blank" rel="noopener noreferrer" class="project-link">
               View Project →
             </a>
           </div>
@@ -372,7 +380,7 @@
               A minimal, content-first blog platform for longform writing and personal
               reflections with a clean reading experience.
             </p>
-            <a href="https://mylife-one-day-shine.lovable.app" target="_blank" class="project-link">
+            <a href="https://mylife-one-day-shine.lovable.app" target="_blank" rel="noopener noreferrer" class="project-link">
               View Project →
             </a>
           </div>
@@ -387,7 +395,7 @@
               A personal collection of musical and written compositions, featuring
               samples, notes, and background on each work.
             </p>
-            <a href="https://composer-chronicle.lovable.app" target="_blank" class="project-link">
+            <a href="https://composer-chronicle.lovable.app" target="_blank" rel="noopener noreferrer" class="project-link">
               View Project →
             </a>
           </div>
@@ -397,7 +405,7 @@
     </section>
   </main>
 
-  <section class="contact-section" aria-labelledby="contact-heading">
+  <section id="contact" class="contact-section" aria-labelledby="contact-heading">
     <div style="max-width:800px;margin:0 auto;padding:0 1rem;">
       <h2 id="contact-heading">Contact / Ota yhteyttä</h2>
       <form class="contact-form" action="mailto:juuso5279@gmail.com" method="POST" enctype="text/plain">

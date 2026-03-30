@@ -3,7 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Digital Portfolio</title>
+  <title>My Digital Portfolio | Web Development & Design</title>
+  <meta name="description" content="Juuso's web development portfolio showcasing interactive websites, branding, and digital experiences." />
+  <meta name="keywords" content="web developer, portfolio, digital design, front-end development, interactive website, creative web projects" />
+  <meta name="author" content="Juuso" />
+  <meta name="theme-color" content="#6c63ff" />
+  <meta property="og:title" content="My Digital Portfolio | Juuso" />
+  <meta property="og:description" content="Portfolio of a web developer and digital designer with featured interactive projects and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:site_name" content="My Digital Portfolio" />
+  <meta property="og:image" content="https://yourdomain.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="My Digital Portfolio | Juuso" />
+  <meta name="twitter:description" content="Portfolio of a web developer and digital designer with featured interactive projects and contact details." />
+  <meta name="twitter:image" content="https://yourdomain.com/og-image.png" />
+  <link rel="canonical" href="https://yourdomain.com/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', { send_page_view: true });
+  </script>
   <style>
     * {
       margin: 0;
@@ -36,6 +60,32 @@
       font-size: 1.1rem;
       opacity: 0.95;
       font-weight: 300;
+    }
+    
+    .site-nav {
+      margin-top: 1.5rem;
+    }
+
+    .site-nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+    }
+
+    .site-nav a {
+      color: rgba(255, 255, 255, 0.95);
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.25s ease;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus {
+      opacity: 0.8;
     }
     
     main {
@@ -188,6 +238,80 @@
       }
     }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Juuso",
+        "url": "https://yourdomain.com/",
+        "sameAs": [
+          "https://twitter.com/yourhandle",
+          "https://www.linkedin.com/in/yourhandle"
+        ],
+        "jobTitle": "Web Developer",
+        "description": "Full-stack web developer and designer building engaging portfolio websites and digital experiences."
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://yourdomain.com/",
+        "name": "My Digital Portfolio",
+        "description": "A portfolio site showing web projects, development services, and contact information.",
+        "publisher": {
+          "@type": "Person",
+          "name": "Juuso"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Featured Projects",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Story of the steppe",
+              "url": "https://bookish-creations-hub.lovable.app",
+              "description": "A narrative-driven interactive experience inspired by steppe landscapes."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "company website",
+              "url": "https://honkosen-huoltopalvelut-fi.lovable.app",
+              "description": "A polished company website with clear branding, responsive layout, and conversion-focused UX."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Blog",
+              "url": "https://mylife-one-day-shine.lovable.app",
+              "description": "A minimal, content-first blog platform for longform writing and personal reflections."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "My compositions",
+              "url": "https://composer-chronicle.lovable.app",
+              "description": "A personal collection of musical and written compositions with background notes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
